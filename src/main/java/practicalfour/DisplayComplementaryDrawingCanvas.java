@@ -38,16 +38,24 @@ public class DisplayComplementaryDrawingCanvas extends Application {
   public void start(Stage primaryStage) {
     // declare the scanner
     Scanner scanner = new Scanner(System.in);
+    
+    
+    // ask the user to enter three numbers
+    System.out.println("Please enter three integers (0-225), one per line");
 
     // *TODO: Read in the RED color value using scanner
-    int redValue =
+    // uncomment and complete the line below
+    //int redValue =
     // *TODO: Read in the GREEN color value
-    int greenValue =
+    // uncomment and complete the line below
+    //int greenValue =
     // *TODO: Read in the BLUE color value
-    int blueValue =
+    // uncomment and complete the line below
+    //int blueValue =
 
     // *TODO: Create the color based on the input values from the user
-    Color userColor =
+    // uncomment and complete the line below
+    //Color userColor =
 
     // TODO: Draw a rectangle starting at (0,0) with dimensions CANVAS_WIDTH/2 and CANVAS_HEIGHT
 
@@ -58,7 +66,8 @@ public class DisplayComplementaryDrawingCanvas extends Application {
     // and then create a new Color object called userComplementaryColor.
     // Refer to notes in the practical assignment sheet about this calculation.
     // Make sure to add your own calculation to the right side of the equal sign!
-    Color userComplementaryColor =
+    // uncomment and complete the line below
+    //Color userComplementaryColor =
 
     // TODO: fill the second half (left-to-right) of the canvas
     // with the complement of the user's color
